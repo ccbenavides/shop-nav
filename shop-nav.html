@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`shop-nav`
+
+
+@demo demo/index.html 
+-->
+
+<dom-module id="shop-nav">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'shop-nav',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'shop-nav',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
